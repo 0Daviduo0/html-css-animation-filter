@@ -225,3 +225,50 @@
         margin-right: -10%;
    }
 }
+
+
+/* ex 13 */
+.ex-13-top-white{
+    background-color: blueviolet;
+    animation-name: slide3;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: ;
+}
+
+@keyframes slide3{
+    0% {
+        margin-left: -20%;
+    }
+
+   25% {
+        margin-left: 70%;
+   }
+   
+   50% {
+        margin-top: 30%;
+   }
+
+
+}
+
+/* .ex-13-bottom-white{ */
+    animation-name: slide4;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide4{
+    0% {
+        margin-right: -10%;
+    }
+
+   50% {
+        margin-right: 40%;
+   }
+   
+   100% {
+        margin-right: -10%;
+   }
+}
