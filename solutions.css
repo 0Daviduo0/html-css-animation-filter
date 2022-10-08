@@ -89,3 +89,34 @@
     border-radius: 25px;
     transform: scale(1.5);
 }
+
+
+/* ex 10 */
+.ex-10-icon{
+    animation-name: loading;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loading{
+    0% {
+        rotate: 0deg;
+    }
+
+    25% {
+        rotate: 90deg;
+    }
+
+    50% {
+        rotate: 180deg;
+    }
+
+    75% {
+        rotate: 270deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
