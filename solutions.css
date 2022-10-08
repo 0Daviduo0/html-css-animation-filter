@@ -181,3 +181,47 @@
         rotate: 0deg;
     }
 }
+
+
+/* ex 12 */
+.ex-12-top-white{
+    animation-name: slide1;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide1{
+    0% {
+        margin-left: 0%;
+    }
+
+   50% {
+        margin-left: 50%;
+   }
+   
+   100% {
+        margin-left: 0%;
+   }
+}
+
+.ex-12-bottom-white{
+    animation-name: slide2;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide2{
+    0% {
+        margin-right: -10%;
+    }
+
+   50% {
+        margin-right: 40%;
+   }
+   
+   100% {
+        margin-right: -10%;
+   }
+}
