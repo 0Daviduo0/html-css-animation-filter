@@ -1,3 +1,5 @@
+
+/* ex 1 */
 .ex-1-square{
     transition: background-color 5s;
 }
@@ -7,7 +9,7 @@
 }
 
 
-
+/* ex 2 */
 .ex-2-square{
     transition: width 5s;
 }
@@ -17,7 +19,7 @@
 }
 
 
-
+/* ex 3 */
 .ex-3-square{
     transition: border-radius 5s;
 }
@@ -27,7 +29,7 @@
 }
 
 
-
+/* ex 4 */
 .ex-4-square{
     transition: opacity 5s;
 }
@@ -37,11 +39,40 @@
 }
 
 
-
+/* ex 5 */
 .ex-5-square:hover{
     transform: scale(1.5)
 }
 
 .ex-5-square:active{
     transform: scale(0.5)
+}
+
+
+/* ex 6 */
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+
+
+/* ex 7 */
+.ex-7-img{
+    transition: filter 5s;
+}
+
+.ex-7-img:hover{
+    filter: grayscale(1);
+    filter: invert(1);
+}
+
+
+/* ex 8 */
+.ex-8-img{
+    transition: filter 5s, border-radius 5s;
+}
+
+.ex-8-img:hover{
+    filter: grayscale(1);
+    filter: invert(1);
+    border-radius: 25px;
 }
