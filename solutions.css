@@ -76,3 +76,16 @@
     filter: invert(1);
     border-radius: 25px;
 }
+
+
+/* ex 9 */
+.ex-9-img{
+    transition: filter 5s, border-radius 5s, transform 5s;
+}
+
+.ex-9-img:hover{
+    filter: grayscale(1);
+    filter: invert(1);
+    border-radius: 25px;
+    transform: scale(1.5);
+}
