@@ -123,7 +123,7 @@
 
 
 /* ex 11 */
-.ex-11-icon{
+/* .ex-11-icon{ */
     animation-name: loading2;
     animation-duration: 1s;
     animation-timing-function: linear;
@@ -184,7 +184,7 @@
 
 
 /* ex 12 */
-.ex-12-top-white{
+.ex-12-button:hover .ex-12-top-white{
     animation-name: slide1;
     animation-duration: 3s;
     animation-timing-function: linear;
@@ -205,7 +205,7 @@
    }
 }
 
-.ex-12-bottom-white{
+.ex-12-button:hover .ex-12-bottom-white{
     animation-name: slide2;
     animation-duration: 3s;
     animation-timing-function: linear;
